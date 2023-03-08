@@ -38,8 +38,8 @@ namespace CMP1903M_A01_2223
                         break;
                 }
 
-                Console.WriteLine("Dealing 5 cards...");
-                for (int i = 0; i < 5; i++)
+                Console.WriteLine("Dealing 52 cards...");
+                for (int i = 0; i < 52; i++)
                 {
                     Card dealtCard = Pack.deal();
                     Console.WriteLine($"Card {i + 1}: {dealtCard.Value} of {dealtCard.Suit}");
